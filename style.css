@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "monospace", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(158, 185, 159);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: #edeaea;
+  padding: 25px;
+  width: 550px;
+  border-radius: 10px;
+}
+
+.todo-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-left: 5px;
+  justify-content: center;
+}
